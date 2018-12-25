@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scaleType="centerCrop"
+
+    android:src="@drawable/mu"
+    android:alpha="0.3"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:focusableInTouchMode="true">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceMedium"
+
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:text="Candidate Details"/>
+
+        <EditText
+            style="@style/common"
+            android:hint="Enter Full Name"
+            android:id="@+id/full"/>
+
+        <EditText
+            style="@style/common"
+            android:hint="Enter Roll Number"
+
+        android:id="@+id/roll"/>
+        <EditText
+            style="@style/common"
+            android:hint="Enter College Name"
+            android:id="@+id/name"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:text="Revaluation"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginLeft="12dp"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:text="(Rs 500 per subject)"/>
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="12dp"
+                    android:text="Applied Mathematics-2"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:id="@+id/rm"/>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="12dp"
+                    android:text="Applied Physics-2"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:id="@+id/rp"/>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="12dp"
+                    android:text="Applied Chemistry-2"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:id="@+id/rc"/>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="12dp"
+                    android:text="SPA"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:id="@+id/rs"/>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="12dp"
+                    android:text="Engineering Drawing"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:id="@+id/rd"/>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="12dp"
+                    android:text="Communication Skills"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:id="@+id/rcs"/>
+
+            </LinearLayout>
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#000000"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:text="Xerox"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginLeft="12dp"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:text="(Rs 50 per subject)"/>
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="12dp"
+                    android:text="Applied Mathematics-2"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:id="@+id/xm"/>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="12dp"
+                    android:text="Applied Physics-2"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:id="@+id/xp"/>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="12dp"
+                    android:text="Applied Chemistry-2"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:id="@+id/xc"/>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="12dp"
+                    android:text="SPA"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:id="@+id/xs"/>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="12dp"
+                    android:text="Engineering Drawing"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:id="@+id/xd"/>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="12dp"
+                    android:text="Communication Skills"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:id="@+id/xcs"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="12dp"
+                android:text="Total price = "
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:id="@+id/price"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+
+                    android:gravity="center_horizontal"
+                    android:onClick="calc"
+                    android:text="Total"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="4dp"
+                android:text="(Please press Confirm to send a mail to Mumbai University)"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textStyle="italic" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#cdb38b">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+
+                    android:gravity="center_horizontal"
+                    android:onClick="pro"
+                    android:text="Confirm"
+                    android:layout_marginBottom="12dp"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
+</ScrollView>
